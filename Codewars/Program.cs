@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Codewars
 {
@@ -6,7 +7,11 @@ namespace Codewars
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Where my anagrams at?
+            var anagramsSolution = WhereMyAnagramsAt.Anagrams("racer", new List<string> { "carer", "arcre", "carre", "racrs", "racers", "arceer", "raccer", "carrer", "cerarr" });
+            anagramsSolution.ForEach(i => Console.Write($"{i}\t"));
+
+            Console.ReadKey();
         }
     }
 }

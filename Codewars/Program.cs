@@ -12,7 +12,10 @@ namespace Codewars
             //anagramsSolution.ForEach(i => Console.Write($"{i}\t"));
 
             // Integers: Recreation One
-            Console.WriteLine(IntegersRecreationOne.listSquared(300, 600));
+            //Console.WriteLine(IntegersRecreationOne.listSquared(300, 600));
+
+            // Simple Reversed Parentheses
+            Console.WriteLine(SimpleReversedParentheses.solve("())()))))()()("));
 
             Console.ReadKey();
         }
